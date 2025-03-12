@@ -2090,6 +2090,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6ad0990884f98d1418e9c00a521e09b8, type: 3}
   m_PrefabInstance: {fileID: 610385340}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &610385342 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1594777109040007341, guid: 6ad0990884f98d1418e9c00a521e09b8, type: 3}
+  m_PrefabInstance: {fileID: 610385340}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &610961363 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6ad0990884f98d1418e9c00a521e09b8, type: 3}
@@ -3838,7 +3843,7 @@ Transform:
   m_GameObject: {fileID: 1175909452}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710695, y: 0.00000017136335, z: 0.000000059604645, w: 0.7071067}
-  m_LocalPosition: {x: 0.0000000661239, y: 0.0050002486, z: 0.3180001}
+  m_LocalPosition: {x: -0, y: 0.005, z: 0.2897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4749,7 +4754,7 @@ Transform:
   m_GameObject: {fileID: 1381776063}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.000000028405339, y: -0.06499972, z: -0.058999956}
+  m_LocalPosition: {x: 0.0043, y: -0.0266, z: -0.0423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5890,9 +5895,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nearFarInteractor: {fileID: 1820839706}
   handMesh: {fileID: 566690113}
+  handArmature: {fileID: 610385342}
   selectActionRef: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   activateActionRef: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   handAnimator: {fileID: 1802354919}
+  actionDelay: 0.3
 --- !u!114 &1820839706 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1883230248363655243, guid: cf03fd761d9da2f44a3545c676350854, type: 3}
@@ -6074,9 +6081,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nearFarInteractor: {fileID: 1196174008}
   handMesh: {fileID: 717791820}
+  handArmature: {fileID: 1926580751}
   selectActionRef: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   activateActionRef: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   handAnimator: {fileID: 1926580749}
+  actionDelay: 0.3
+--- !u!1 &1926580751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1594777109040007341, guid: 6ad0990884f98d1418e9c00a521e09b8, type: 3}
+  m_PrefabInstance: {fileID: 1926580747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1961117247
 GameObject:
   m_ObjectHideFlags: 0
