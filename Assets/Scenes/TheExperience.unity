@@ -128,31 +128,31 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1768196389}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
       propertyPath: m_LocalScale.x
-      value: 92.37877
+      value: 7.895521
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
       propertyPath: m_LocalScale.y
-      value: 454.4258
+      value: 91.20797
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
       propertyPath: m_LocalScale.z
-      value: 42.946022
+      value: 169.41684
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.88651997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36598724
+      value: 0.008224487
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -4.224
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
       propertyPath: m_LocalRotation.w
@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0107e2eef02844947876be44047760b6, type: 2}
     - target: {fileID: 919132149155446097, guid: f7a6b4981e5969b449f42cc2ccaee794, type: 3}
       propertyPath: m_Name
       value: Door
@@ -225,7 +229,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.020008149, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.9383784, y: 0.020741105, z: -4.224}
+  m_ConnectedAnchor: {x: -0.93838257, y: 0.008861303, z: -4.224}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -6099,7 +6103,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 73aae97d51839d6499b2bce9a4b5bc34, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6138,11 +6142,10 @@ Transform:
   m_GameObject: {fileID: 1768196385}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.88651997, y: 1.452, z: -4.224}
+  m_LocalPosition: {x: -1.059, y: 1.452, z: -4.224}
   m_LocalScale: {x: 0.20070991, y: 3.9448793, z: 0.085469}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 21787930}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1768477347 stripped
@@ -6259,8 +6262,8 @@ Transform:
   m_GameObject: {fileID: 1857108770}
   serializedVersion: 2
   m_LocalRotation: {x: 0.49991274, y: -0.50008726, z: -0.49991274, w: 0.50008726}
-  m_LocalPosition: {x: -0.0074, y: 0.01844, z: 0.0103}
-  m_LocalScale: {x: 0.0014989331, y: 0.0032833414, z: 0.01500778}
+  m_LocalPosition: {x: -0.0074000005, y: 0.0014486571, z: 0.010303192}
+  m_LocalScale: {x: 0.0014989332, y: 0.0032833416, z: 0.01500778}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 21787930}
@@ -6306,7 +6309,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 73aae97d51839d6499b2bce9a4b5bc34, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7094,3 +7097,4 @@ SceneRoots:
   - {fileID: 598620558}
   - {fileID: 1296354865}
   - {fileID: 1768196389}
+  - {fileID: 21787929}
