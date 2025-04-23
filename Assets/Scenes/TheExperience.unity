@@ -266,6 +266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Bench_1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 069faa75324807b4d99f059f6622d7c2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 069faa75324807b4d99f059f6622d7c2, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1005167
@@ -346,6 +350,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fb901750ec5d32f46ad8179f6fb99b8a, type: 3}
       propertyPath: m_Name
       value: Props_Bench_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fb901750ec5d32f46ad8179f6fb99b8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fb901750ec5d32f46ad8179f6fb99b8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2589,6 +2597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Natures_Grass Fence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f84563c4522be5e4bbef79b6a74da743, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f84563c4522be5e4bbef79b6a74da743, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.521711
@@ -3200,6 +3212,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 47c1421697edd00439084088bf4efb68, type: 3}
       propertyPath: m_Name
       value: Natures_Pot Bush_big
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 47c1421697edd00439084088bf4efb68, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 47c1421697edd00439084088bf4efb68, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4789,6 +4805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Roof_prop (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7484226
@@ -5019,11 +5039,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5944131804917401860, guid: cf03fd761d9da2f44a3545c676350854, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6501755809687671949, guid: cf03fd761d9da2f44a3545c676350854, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8748500131873809389, guid: cf03fd761d9da2f44a3545c676350854, type: 3}
       propertyPath: m_IsActive
@@ -5468,7 +5488,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &528803988
 Transform:
@@ -5490,7 +5510,6 @@ Transform:
   - {fileID: 1795914216}
   - {fileID: 438973499}
   - {fileID: 906887111}
-  - {fileID: 1643796506}
   - {fileID: 1844873644}
   - {fileID: 37292752}
   - {fileID: 541090008}
@@ -5773,6 +5792,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f84563c4522be5e4bbef79b6a74da743, type: 3}
       propertyPath: m_Name
       value: Natures_Grass Fence
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f84563c4522be5e4bbef79b6a74da743, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f84563c4522be5e4bbef79b6a74da743, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6287,7 +6310,7 @@ GameObject:
   - component: {fileID: 581932717}
   - component: {fileID: 581932719}
   - component: {fileID: 581932718}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8658,6 +8681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Natures_Bush_02
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f65d01a310db1b74582d89cdcb63fe4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f65d01a310db1b74582d89cdcb63fe4b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8509274
@@ -10111,7 +10138,7 @@ GameObject:
   - component: {fileID: 868222345}
   - component: {fileID: 868222347}
   - component: {fileID: 868222346}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10541,6 +10568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Gas Station
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25449c1a4c4ca004ead70b6c0889695b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25449c1a4c4ca004ead70b6c0889695b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.566177
@@ -10673,6 +10704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Natures_Bush_03
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 878eb4575d3db2143bff9ebf5c266974, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 878eb4575d3db2143bff9ebf5c266974, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.064398
@@ -10738,6 +10773,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 23816e0039304184c9d9f74b067ca30e, type: 3}
       propertyPath: m_Name
       value: Props_Coffee shop chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 23816e0039304184c9d9f74b067ca30e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 23816e0039304184c9d9f74b067ca30e, type: 3}
       propertyPath: m_LocalScale.x
@@ -12067,6 +12106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Natures_Grass Fence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f84563c4522be5e4bbef79b6a74da743, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f84563c4522be5e4bbef79b6a74da743, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.550001
@@ -12132,6 +12175,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
       propertyPath: m_Name
       value: Props_Roof_prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15773,7 +15820,7 @@ GameObject:
   - component: {fileID: 1331899353}
   - component: {fileID: 1331899355}
   - component: {fileID: 1331899354}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16786,7 +16833,7 @@ GameObject:
   - component: {fileID: 1393783932}
   - component: {fileID: 1393783931}
   - component: {fileID: 1393783930}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16857,9 +16904,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2092735486}
+      - m_Target: {fileID: 2092735481}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: HideMenu
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18426,6 +18473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Roof_prop (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.648422
@@ -19458,7 +19509,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 528803988}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100000, guid: 033999da19ac9074d84c50be8da3917e, type: 3}
       propertyPath: m_Name
@@ -19466,7 +19517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 033999da19ac9074d84c50be8da3917e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.69083077
+      value: 0.690831
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 033999da19ac9074d84c50be8da3917e, type: 3}
       propertyPath: m_LocalScale.y
@@ -19474,19 +19525,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 033999da19ac9074d84c50be8da3917e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.57950467
+      value: 0.57950485
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 033999da19ac9074d84c50be8da3917e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.285
+      value: -5.4134235
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 033999da19ac9074d84c50be8da3917e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.391
+      value: 0.26781368
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 033999da19ac9074d84c50be8da3917e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -23.712
+      value: 3.5249233
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 033999da19ac9074d84c50be8da3917e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19622,8 +19673,8 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AttachTransform: {fileID: 126966305}
-  m_SecondaryAttachTransform: {fileID: 436042946}
+  m_AttachTransform: {fileID: 609026002}
+  m_SecondaryAttachTransform: {fileID: 74962064}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
@@ -20271,6 +20322,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 736724502c2975348b2f19e5e99e1ec5, type: 3}
       propertyPath: m_Name
       value: Natures_Bush_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 736724502c2975348b2f19e5e99e1ec5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 736724502c2975348b2f19e5e99e1ec5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21286,6 +21341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Roof_prop (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 46c5f3202ef79174c9c96903bbae627a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.648422
@@ -21783,6 +21842,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8b615931481e47849972f85e029c22cf, type: 3}
       propertyPath: m_Name
       value: Props_Dustbin
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8b615931481e47849972f85e029c22cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b615931481e47849972f85e029c22cf, type: 3}
       propertyPath: m_LocalScale.x
@@ -25141,7 +25204,8 @@ GameObject:
   - component: {fileID: 2092735484}
   - component: {fileID: 2092735483}
   - component: {fileID: 2092735486}
-  m_Layer: 5
+  - component: {fileID: 2092735487}
+  m_Layer: 0
   m_Name: IntroMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25246,6 +25310,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IntroMenu: {fileID: 2092735481}
+--- !u!114 &2092735487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092735481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1001 &2097345940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25605,6 +25688,10 @@ PrefabInstance:
       propertyPath: m_AttachTransform
       value: 
       objectReference: {fileID: 362525054}
+    - target: {fileID: 847699073082884600, guid: 0ada11667bb4f054fadc4873d9975415, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 892228438369046921, guid: 0ada11667bb4f054fadc4873d9975415, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.639246
@@ -25944,3 +26031,4 @@ SceneRoots:
   - {fileID: 528803988}
   - {fileID: 617556337}
   - {fileID: 240553509}
+  - {fileID: 1643796504}
